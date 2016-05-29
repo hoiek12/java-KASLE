@@ -2,6 +2,7 @@ package backup;
 
 import javax.swing.JPanel;
 import javax.swing.JTextField;
+// edit
 
 import java.awt.Color;
 import java.awt.Dimension;
@@ -39,7 +40,7 @@ public class basic_prac extends JPanel {
 	
 	//public void paint(Graphics  g)
 	//{
-		//Image image = Toolkit.getDefaultToolkit().getImage("C:\\Users\\LeeJooHyun\\Desktop\\Àâµ¿»ç´Ï\\University\\3ÇĞ³â 1ÇĞ±â\\Software Engineering\\project\\GUI\\basicicon\\"+cproblem+".png");
+		//Image image = Toolkit.getDefaultToolkit().getImage("C:\\Users\\LeeJooHyun\\Desktop\\ì¡ë™ì‚¬ë‹ˆ\\University\\3í•™ë…„ 1í•™ê¸°\\Software Engineering\\project\\GUI\\basicicon\\"+cproblem+".png");
 		//g.setColor(Color.black);
 		//g.drawImage(image, 100, 100, null);
 	//}
@@ -58,7 +59,7 @@ public class basic_prac extends JPanel {
 	JButton btnMain;
 	JButton btnChangeDifficulty;
 
-	ImageIcon empty_icon = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\Àâµ¿»ç´Ï\\University\\3ÇĞ³â 1ÇĞ±â\\Software Engineering\\project\\GUI\\basicicon\\0.png");
+	ImageIcon empty_icon = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\ì¡ë™ì‚¬ë‹ˆ\\University\\3í•™ë…„ 1í•™ê¸°\\Software Engineering\\project\\GUI\\basicicon\\0.png");
 
 	SignListner leaplisten= new SignListner();
 	Controller leapcont = new Controller();
@@ -108,15 +109,15 @@ public class basic_prac extends JPanel {
 		add(panel_1);
 		panel_1.setLayout(new GridLayout(3, 0, 0, 0));
 		
-		ImageIcon home = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\Àâµ¿»ç´Ï\\University\\3ÇĞ³â 1ÇĞ±â\\Software Engineering\\project\\GUI\\home.png");
+		ImageIcon home = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\ì¡ë™ì‚¬ë‹ˆ\\University\\3í•™ë…„ 1í•™ê¸°\\Software Engineering\\project\\GUI\\home.png");
 		JButton btnMain = new JButton(home);
 		panel_1.add(btnMain);
 		
-		ImageIcon restart = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\Àâµ¿»ç´Ï\\University\\3ÇĞ³â 1ÇĞ±â\\Software Engineering\\project\\GUI\\restart.png");
+		ImageIcon restart = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\ì¡ë™ì‚¬ë‹ˆ\\University\\3í•™ë…„ 1í•™ê¸°\\Software Engineering\\project\\GUI\\restart.png");
 		JButton btn_restart = new JButton(restart);
 		panel_1.add(btn_restart);
 		
-		ImageIcon change_cate = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\Àâµ¿»ç´Ï\\University\\3ÇĞ³â 1ÇĞ±â\\Software Engineering\\project\\GUI\\change_cate.png");
+		ImageIcon change_cate = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\ì¡ë™ì‚¬ë‹ˆ\\University\\3í•™ë…„ 1í•™ê¸°\\Software Engineering\\project\\GUI\\change_cate.png");
 		JButton btnChangeDifficulty = new JButton(change_cate);
 		panel_1.add(btnChangeDifficulty);
 		
@@ -138,8 +139,8 @@ public class basic_prac extends JPanel {
 	
 		for(int ii=1;ii<41;ii++){
 			String tempname = Integer.toString(ii);
-			image_basic[ii-1]=new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\Àâµ¿»ç´Ï\\University\\3ÇĞ³â 1ÇĞ±â\\Software Engineering\\project\\GUI\\basicicon\\"+tempname+".png");
-			image_basic_correct[ii-1]=new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\Àâµ¿»ç´Ï\\University\\3ÇĞ³â 1ÇĞ±â\\Software Engineering\\project\\GUI\\basicicon\\"+tempname+"_1.png");
+			image_basic[ii-1]=new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\ì¡ë™ì‚¬ë‹ˆ\\University\\3í•™ë…„ 1í•™ê¸°\\Software Engineering\\project\\GUI\\basicicon\\"+tempname+".png");
+			image_basic_correct[ii-1]=new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\ì¡ë™ì‚¬ë‹ˆ\\University\\3í•™ë…„ 1í•™ê¸°\\Software Engineering\\project\\GUI\\basicicon\\"+tempname+"_1.png");
 		}
 	}
 //end of constructor
@@ -156,12 +157,12 @@ public class basic_prac extends JPanel {
 	       String path = basic_prac.class.getResource("").getPath();
 	       
 	    // make btn icon and btn
-			ImageIcon cate_icon_v = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\Àâµ¿»ç´Ï\\University\\3ÇĞ³â 1ÇĞ±â\\Software Engineering\\project\\GUI\\vowel.png");
-			ImageIcon cate_icon_v1 = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\Àâµ¿»ç´Ï\\University\\3ÇĞ³â 1ÇĞ±â\\Software Engineering\\project\\GUI\\vowel_1.png");
-			ImageIcon cate_icon_c = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\Àâµ¿»ç´Ï\\University\\3ÇĞ³â 1ÇĞ±â\\Software Engineering\\project\\GUI\\conso.png");
-			ImageIcon cate_icon_c1 = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\Àâµ¿»ç´Ï\\University\\3ÇĞ³â 1ÇĞ±â\\Software Engineering\\project\\GUI\\conso_1.png");
-			ImageIcon cate_icon_b = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\Àâµ¿»ç´Ï\\University\\3ÇĞ³â 1ÇĞ±â\\Software Engineering\\project\\GUI\\both.png");
-			ImageIcon cate_icon_b1 = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\Àâµ¿»ç´Ï\\University\\3ÇĞ³â 1ÇĞ±â\\Software Engineering\\project\\GUI\\both_1.png");
+			ImageIcon cate_icon_v = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\ì¡ë™ì‚¬ë‹ˆ\\University\\3í•™ë…„ 1í•™ê¸°\\Software Engineering\\project\\GUI\\vowel.png");
+			ImageIcon cate_icon_v1 = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\ì¡ë™ì‚¬ë‹ˆ\\University\\3í•™ë…„ 1í•™ê¸°\\Software Engineering\\project\\GUI\\vowel_1.png");
+			ImageIcon cate_icon_c = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\ì¡ë™ì‚¬ë‹ˆ\\University\\3í•™ë…„ 1í•™ê¸°\\Software Engineering\\project\\GUI\\conso.png");
+			ImageIcon cate_icon_c1 = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\ì¡ë™ì‚¬ë‹ˆ\\University\\3í•™ë…„ 1í•™ê¸°\\Software Engineering\\project\\GUI\\conso_1.png");
+			ImageIcon cate_icon_b = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\ì¡ë™ì‚¬ë‹ˆ\\University\\3í•™ë…„ 1í•™ê¸°\\Software Engineering\\project\\GUI\\both.png");
+			ImageIcon cate_icon_b1 = new ImageIcon("C:\\Users\\LeeJooHyun\\Desktop\\ì¡ë™ì‚¬ë‹ˆ\\University\\3í•™ë…„ 1í•™ê¸°\\Software Engineering\\project\\GUI\\both_1.png");
 
 			
 	      public void start_prac_basic(){  
@@ -190,10 +191,10 @@ public class basic_prac extends JPanel {
 	    				   i++;
 	    			   }
 	    		   } 
-	    		   Vowel_Question.add("ÀÇ");
-	    		   Vowel_Answer.add("ÀÇ");
+	    		   Vowel_Question.add("ì˜");
+	    		   Vowel_Answer.add("ì˜");
 	    		   
-	    	   } catch (FileNotFoundException e) {//ÆÄÀÏÀÌ ¿¹¿ÜÃ³¸®
+	    	   } catch (FileNotFoundException e) {//íŒŒì¼ì´ ì˜ˆì™¸ì²˜ë¦¬
 	    		   e.printStackTrace();
 	    	   } 
 	    	   catch (IOException e) {
@@ -219,10 +220,10 @@ public class basic_prac extends JPanel {
                         i++;
                   }
               } 
-               Consonant_Question.add("ÀÇ");
-               Consonant_Answer.add("ÀÇ");
+               Consonant_Question.add("ì˜");
+               Consonant_Answer.add("ì˜");
 
-            } catch (FileNotFoundException e) {//ÆÄÀÏÀÌ ¿¹¿ÜÃ³¸®
+            } catch (FileNotFoundException e) {//íŒŒì¼ì´ ì˜ˆì™¸ì²˜ë¦¬
                e.printStackTrace();
                } 
                catch (IOException e) {
@@ -258,10 +259,10 @@ public class basic_prac extends JPanel {
 				 number=0;
 				 
 				 JButton sel_Vowel= new JButton(cate_icon_v);
-				 sel_Vowel.setBorderPainted(false); // Å×µÎ¸® ¾ø¾Ö±â
-				 sel_Vowel.setMargin(new Insets(0,0,0,0)); // ¿©¹é¾ø¾Ö±â
-				 sel_Vowel.setContentAreaFilled(false); // ¹öÆ° ¹ÙÅÁ ¾ø¾Ö±â
-				 sel_Vowel.setSize(new Dimension(cate_icon_v.getIconWidth(), cate_icon_v.getIconHeight())); //Å©±â ¸ÂÃß±â
+				 sel_Vowel.setBorderPainted(false); // í…Œë‘ë¦¬ ì—†ì• ê¸°
+				 sel_Vowel.setMargin(new Insets(0,0,0,0)); // ì—¬ë°±ì—†ì• ê¸°
+				 sel_Vowel.setContentAreaFilled(false); // ë²„íŠ¼ ë°”íƒ• ì—†ì• ê¸°
+				 sel_Vowel.setSize(new Dimension(cate_icon_v.getIconWidth(), cate_icon_v.getIconHeight())); //í¬ê¸° ë§ì¶”ê¸°
 				 sel_Vowel.addActionListener(new ActionListener(){
 					 public void actionPerformed(ActionEvent e){
 						what_category="Vowel";
@@ -279,10 +280,10 @@ public class basic_prac extends JPanel {
 					});
 				 
 				 JButton sel_Consonant  = new JButton(cate_icon_c);
-				 sel_Consonant.setBorderPainted(false); // Å×µÎ¸® ¾ø¾Ö±â
-				 sel_Consonant.setMargin(new Insets(0,0,0,0)); // ¿©¹é¾ø¾Ö±â
-				 sel_Consonant.setContentAreaFilled(false); // ¹öÆ° ¹ÙÅÁ ¾ø¾Ö±â
-				 sel_Consonant.setSize(new Dimension(cate_icon_c.getIconWidth(), cate_icon_c.getIconHeight())); //Å©±â ¸ÂÃß±â
+				 sel_Consonant.setBorderPainted(false); // í…Œë‘ë¦¬ ì—†ì• ê¸°
+				 sel_Consonant.setMargin(new Insets(0,0,0,0)); // ì—¬ë°±ì—†ì• ê¸°
+				 sel_Consonant.setContentAreaFilled(false); // ë²„íŠ¼ ë°”íƒ• ì—†ì• ê¸°
+				 sel_Consonant.setSize(new Dimension(cate_icon_c.getIconWidth(), cate_icon_c.getIconHeight())); //í¬ê¸° ë§ì¶”ê¸°
 				 sel_Consonant.addActionListener(new ActionListener(){
 					 public void actionPerformed(ActionEvent e){
 						 what_category="Consonant";
@@ -299,10 +300,10 @@ public class basic_prac extends JPanel {
 						}
 					});
 				 JButton sel_Both = new JButton(cate_icon_b);
-				 sel_Both.setBorderPainted(false); // Å×µÎ¸® ¾ø¾Ö±â
-				 sel_Both.setMargin(new Insets(0,0,0,0)); // ¿©¹é¾ø¾Ö±â
-				 sel_Both.setContentAreaFilled(false); // ¹öÆ° ¹ÙÅÁ ¾ø¾Ö±â
-				 sel_Both.setSize(new Dimension(cate_icon_v.getIconWidth(), cate_icon_v.getIconHeight())); //Å©±â ¸ÂÃß±â
+				 sel_Both.setBorderPainted(false); // í…Œë‘ë¦¬ ì—†ì• ê¸°
+				 sel_Both.setMargin(new Insets(0,0,0,0)); // ì—¬ë°±ì—†ì• ê¸°
+				 sel_Both.setContentAreaFilled(false); // ë²„íŠ¼ ë°”íƒ• ì—†ì• ê¸°
+				 sel_Both.setSize(new Dimension(cate_icon_v.getIconWidth(), cate_icon_v.getIconHeight())); //í¬ê¸° ë§ì¶”ê¸°
 				 sel_Both.addActionListener(new ActionListener(){
 					 public void actionPerformed(ActionEvent e){
 						 what_category="Both";
@@ -328,8 +329,8 @@ public class basic_prac extends JPanel {
        
        		class Basic_askQuestion extends SwingWorker<Void,Integer>{
     		   public Void doInBackground() {
-    	    	   if(what_category=="Vowel"){// ÀÌºĞÀº ¹öÆ°À¸·Î ±¸ÇöÇØ¾ßµÊ 
-    	               for (number = 0; number < 19; number++){  //start of counter for loop (¹®Á¦ ¼ıÀÚ Á¶Á¤)
+    	    	   if(what_category=="Vowel"){// ì´ë¶„ì€ ë²„íŠ¼ìœ¼ë¡œ êµ¬í˜„í•´ì•¼ë¨ 
+    	               for (number = 0; number < 19; number++){  //start of counter for loop (ë¬¸ì œ ìˆ«ì ì¡°ì •)
     	            	   if(task_cancel==true){
     	            		   cancel(true);
     	            		   number=0;
@@ -353,8 +354,8 @@ public class basic_prac extends JPanel {
     	    	        		   }
     	                   }
     	               } 
-    	    	   else if(what_category=="Consonant"){// ÀÌºĞÀº ¹öÆ°À¸·Î ±¸ÇöÇØ¾ßµÊ 
-    	               for (number = 19; number < 40; number++){  //start of counter for loop (¹®Á¦ ¼ıÀÚ Á¶Á¤)
+    	    	   else if(what_category=="Consonant"){// ì´ë¶„ì€ ë²„íŠ¼ìœ¼ë¡œ êµ¬í˜„í•´ì•¼ë¨ 
+    	               for (number = 19; number < 40; number++){  //start of counter for loop (ë¬¸ì œ ìˆ«ì ì¡°ì •)
     	            	   if(task_cancel==true){
     	            		   cancel(true);
     	            		   number=0;
@@ -378,8 +379,8 @@ public class basic_prac extends JPanel {
     	    	        		   }
     	                   }
     	               }
-    	          else if(what_category=="both"){// ÀÌºĞÀº ¹öÆ°À¸·Î ±¸ÇöÇØ¾ßµÊ 
-    	                  for (number = 0; number < 40; number++){  //start of counter for loop (¹®Á¦ ¼ıÀÚ Á¶Á¤)
+    	          else if(what_category=="both"){// ì´ë¶„ì€ ë²„íŠ¼ìœ¼ë¡œ êµ¬í˜„í•´ì•¼ë¨ 
+    	                  for (number = 0; number < 40; number++){  //start of counter for loop (ë¬¸ì œ ìˆ«ì ì¡°ì •)
     	                	  if(task_cancel==true){
        	            		   cancel(true);
        	            		   number=0;
