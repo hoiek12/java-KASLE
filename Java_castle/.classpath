@@ -14,5 +14,6 @@
 	<classpathentry kind="lib" path="gluegen-rt-natives-windows-amd64.jar"/>
 	<classpathentry kind="lib" path="jogl-all-natives-windows-amd64.jar"/>
 	<classpathentry kind="lib" path="C:/Users/LeeJooHyun/workspace/dsada/mysql-connector-java-5.1.39-bin.jar"/>
+	<classpathentry kind="lib" path="C:/Users/LeeJooHyun/Desktop/잡동사니/소공백업/밀화부리/dsada/mysql-connector-java-5.1.39-bin.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

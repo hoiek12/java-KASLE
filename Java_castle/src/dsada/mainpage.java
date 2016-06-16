@@ -1,4 +1,4 @@
-package castle;
+package dsada;
 
 import javax.swing.JPanel;
 import javax.swing.ImageIcon;

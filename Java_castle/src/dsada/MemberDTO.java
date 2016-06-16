@@ -1,4 +1,4 @@
-package castle;
+package dsada;
 
 public class MemberDTO {
 	private String id;
