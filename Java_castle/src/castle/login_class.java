@@ -1,4 +1,4 @@
-package dsada;
+package castle;
 
 import java.awt.Color;
 import java.awt.Insets;
@@ -11,12 +11,12 @@ import javax.swing.JButton;
 
 public class login_class {
 	static ImageIcon logout_icon=new ImageIcon(
-			"C:\\Users\\LeeJooHyun\\Desktop\\잡동사니\\University\\3학년 1학기\\Software Engineering\\project\\GUI\\logout.png");
+			".\\image\\logout.png");
 	static Panel log_panel = new Panel();
 	static JButton btn_login = new JButton(new ImageIcon(
-			"C:\\Users\\LeeJooHyun\\Desktop\\잡동사니\\University\\3학년 1학기\\Software Engineering\\project\\GUI\\login.png"));
+			".\\image\\login.png"));
 	static JButton btn_logout = new JButton(new ImageIcon(
-			"C:\\Users\\LeeJooHyun\\Desktop\\잡동사니\\University\\3학년 1학기\\Software Engineering\\project\\GUI\\logout.png"));
+			".\\image\\logout.png"));
 
 	public login_class() {
 		log_panel.setBackground(Color.BLACK);

@@ -1,4 +1,4 @@
-package dsada;
+package castle;
 
 import java.awt.FlowLayout;
 import java.awt.GridBagConstraints;

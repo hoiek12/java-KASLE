@@ -1,4 +1,4 @@
-package dsada;
+package castle;
 
 import javax.swing.JPanel;
 import javax.swing.JTextField;

@@ -1,4 +1,4 @@
-package dsada;
+package castle;
 
 import java.awt.Color;
 import java.awt.Dimension;
