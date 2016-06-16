@@ -15,13 +15,15 @@ public class VocaGame extends SignListener{
 	public Vector<question[]> current_problem;
 	public String[] current_string;
 	public boolean iscorrect=false;
-	public boolean gameend;
+	public boolean gameend=false;
 	
 	public VocaGame()
 	{
+		this.SetModel("ÀÚ¸ðÀ½");
+		
 		FileReader fis;
 		BufferedReader br;
-		int num=10;
+		int num=3;
 		current_problem=new Vector<question[]>();
 		current_string=new String[num];
 		try {
@@ -63,8 +65,6 @@ public class VocaGame extends SignListener{
 	
 	
 	public void start(){
-		gameend=false;
-		
 		Timer t=new Timer();
 		TimerTask ts=new TimerTask(){
 			public void run() {

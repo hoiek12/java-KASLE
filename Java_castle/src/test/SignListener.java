@@ -18,14 +18,6 @@ public class SignListener extends Listener{
 	public int prev_state=4000;
 	public int state_count=0;
 	public int second=50;
-	public SignListener()
-	{
-		try {
-			model=svm.svm_load_model("asd.model");
-		} catch (IOException e) {
-			e.printStackTrace();
-		}	
-	}
 	
 	public void SetModel(String s)
 	{

@@ -7,13 +7,11 @@ import com.jogamp.opengl.GLCapabilities;
 import com.jogamp.opengl.awt.GLCanvas;
 import com.jogamp.opengl.util.Animator;
 
-import dsada.game;
-
 	public class mycanvas extends GLCanvas{
 		public SimpleScene listener;
 		public Animator animator;
-		public game game;
-		public mycanvas(SimpleScene listener,GLCapabilities g,game g2)
+		public dsada.game game;
+		public mycanvas(SimpleScene listener,GLCapabilities g,dsada.game g2)
 		{
 			this.game=g2;
 			this.setFocusable(true);
@@ -23,16 +21,18 @@ import dsada.game;
 	        animator = new Animator(this);
 	        animator.start();
 	        
-			this.addMouseListener(new MouseAdapter(){
-				public void mouseClicked(MouseEvent arg0)
-				{
-					if(arg0.getX()>100&&arg0.getY()>100&&
-					arg0.getX()<1000&&arg0.getY()<1200)
-					{
-						game.remove();	
+	        this.addMouseListener(new MouseAdapter(){
+
+				public void mouseClicked(MouseEvent e) {
+					if(e.getX()<1024&&e.getY()<594
+							&&e.getX()>924&&e.getY()>480)
+					{	
+						game.remove();
 					}
+					
 				}
-			});
+
+	        });
 		}
 		
 	}

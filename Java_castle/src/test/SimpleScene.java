@@ -1,5 +1,6 @@
 package test;
 
+import java.awt.Frame;
 import java.io.File;
 import java.io.IOException;
 
@@ -17,16 +18,10 @@ public class SimpleScene implements GLEventListener{
 	private int h=592;
 	
 	private GL gl;
-	private int texture_hand,texture_hand2,texture_correct,texture_background;
+	private int texture_hand,texture_hand2,texture_hand3,texture_background,texture_menu;
 	//OpenGL
 	private Controller c;
-	private SignListener s;
-	/*
-	private NormalGame s;
-	private RainGame s2;
-	private Tutorial s3;
-	private VocaGame s4;
-	*/
+	public SignListener s;
 	//sign recognition and game logic
 
     int k;
@@ -36,13 +31,13 @@ public class SimpleScene implements GLEventListener{
     	c=new Controller();
     	if(k==1)
     	{
-    		s=new NormalGame(2);
+    		s=new NormalGame(1);
     		c.addListener(s);		
     	}
     	else if(k==2)
     	{
-    		s=new RainGame(1f);
-    		c.addListener(s);
+    		s=new NumberGame();
+    		c.addListener(s);	
     	}
     	else if(k==3)
     	{
@@ -52,6 +47,11 @@ public class SimpleScene implements GLEventListener{
     	else if(k==4)
     	{
     		s=new VocaGame();
+    		c.addListener(s);
+    	}
+    	else if(k==5)
+    	{
+    		s=new RainGame(1f);
     		c.addListener(s);
     	}
     	this.k=k;
@@ -71,8 +71,12 @@ public class SimpleScene implements GLEventListener{
 			texture_hand=t.getTextureObject(gl);
 			t=TextureIO.newTexture(new File("모음.png"), false);
 			texture_hand2=t.getTextureObject(gl);
+			t=TextureIO.newTexture(new File("숫자.png"), false);
+			texture_hand3=t.getTextureObject(gl);
 			t=TextureIO.newTexture(new File("배경.png"), false);
 			texture_background=t.getTextureObject(gl);
+			t=TextureIO.newTexture(new File("메뉴.png"), false);
+			texture_menu=t.getTextureObject(gl);
 		} catch (GLException | IOException e) {
 			e.printStackTrace();
 		}
@@ -135,8 +139,7 @@ public class SimpleScene implements GLEventListener{
 		}
 		else if(k==2)
 		{
-			DrawFunc.DrawUIRain(gl,(RainGame) s,c.frame().isValid(), texture_hand,texture_hand2,texture_background);
-			DrawFunc.DrawGameLogic(gl, (RainGame) s, texture_hand);
+			DrawFunc.DrawUINumber(gl, (NumberGame)s, texture_hand3, texture_background);
 		}
 		else if(k==3)
 		{
@@ -144,8 +147,15 @@ public class SimpleScene implements GLEventListener{
 		}
 		else if(k==4)
 		{
-			DrawFunc.DrawUIVoca(gl, (VocaGame) s, texture_hand, texture_hand2,texture_background);
+			DrawFunc.DrawUIVoca(gl, (VocaGame) s, texture_hand,texture_hand2,texture_background);
 		}
+		else if(k==5)
+		{
+			DrawFunc.DrawUIRain(gl,(RainGame) s,c.frame().isValid(),texture_hand,texture_hand2,texture_background);
+			DrawFunc.DrawGameLogic(gl, (RainGame) s, texture_hand);
+		}
+		
+		DrawFunc.DrawMenu(gl, texture_menu);
 	}
 	
 	public void dispose(GLAutoDrawable drawable) {

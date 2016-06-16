@@ -78,7 +78,6 @@ public class DrawFunc {
 		Vector dippos=dipBone.nextJoint().minus(h.palmPosition());
 		Vector mcppos=mcpBone.nextJoint().minus(h.palmPosition());		
 		Vector mcppos2=mcpBone.prevJoint().minus(h.palmPosition());
-		Vector wrist=h.wristPosition().minus(h.palmPosition());
 		
 		doLighting((GL2)gl,0.5f,0.5f,0.5f);
 		renderCylinder_convenient(gl,tippos,pippos,4f,20);
@@ -188,6 +187,21 @@ public class DrawFunc {
 		gl.glEnd();
 	}
 	
+	public static void DrawHandImageNumber(GL2 gl,double x,double y,double w,double h,int texture,int hand_state)
+	{
+		double a,b,c,d;
+		a=(1d/6d)*((hand_state-1)%6);b=1-(1d/3d)*((hand_state-1)/6);
+		c=(1d/6d)*((hand_state-1)%6)+(1d/6d);d=(2d/3d)-(1d/3d)*((hand_state-1)/6);
+		
+		gl.glBindTexture(GL2.GL_TEXTURE_2D, texture);
+		gl.glBegin(GL2.GL_QUADS);
+		gl.glTexCoord2d(a,d);gl.glVertex2d(x,y);
+		gl.glTexCoord2d(c,d);gl.glVertex2d(x+w,y);
+		gl.glTexCoord2d(c,b);gl.glVertex2d(x+w,y+h);
+		gl.glTexCoord2d(a,b);gl.glVertex2d(x,y+h);
+		gl.glEnd();
+	}
+	
 	public static void DrawUINormal(GL2 gl,NormalGame s,int texture_hand,int texture_hand2,int texture_background)
 	{
 		gl.glBindTexture(GL2.GL_TEXTURE_2D, texture_background);
@@ -200,17 +214,36 @@ public class DrawFunc {
 		
 		if(s.current_state<15)
 			DrawFunc.DrawHandImageJaum(gl,50,250,100,100,texture_hand,s.current_state);
-		else if(14<s.current_state&&25>s.current_state)
+		else if(14<s.current_state&&32>s.current_state)
 			DrawFunc.DrawHandImageMoum(gl,50,250,100,100,texture_hand2,s.current_state);
 		
 		if(s.current_problem<15)
 			DrawFunc.DrawHandImageJaum(gl,50,400,100,100,texture_hand,s.current_problem);
-		else if(14<s.current_problem&&25>s.current_problem)
+		else if(14<s.current_problem&&32>s.current_problem)
 			DrawFunc.DrawHandImageMoum(gl,50,400,100,100,texture_hand2,s.current_problem);
 			
 		DrawFunc.DrawAnswer(gl,s.iscorrect,s.gameend);
 		DrawFunc.DrawUIstring();
 	}
+	
+	public static void DrawUINumber(GL2 gl,NumberGame s,int texture_hand,int texture_background)
+	{
+		gl.glBindTexture(GL2.GL_TEXTURE_2D, texture_background);
+		gl.glBegin(GL2.GL_QUADS);
+		gl.glTexCoord2d(0,0);gl.glVertex2d(20,30);
+		gl.glTexCoord2d(1,0);gl.glVertex2d(180,30);
+		gl.glTexCoord2d(1,1);gl.glVertex2d(180,532);
+		gl.glTexCoord2d(0,1);gl.glVertex2d(20,532);
+		gl.glEnd();
+		
+		DrawFunc.DrawHandImageNumber(gl,50,250,100,100,texture_hand,s.current_state);
+		
+		DrawFunc.DrawHandImageNumber(gl,50,400,100,100,texture_hand,s.current_problem);
+			
+		DrawFunc.DrawAnswer(gl,s.iscorrect,s.gameend);
+		DrawFunc.DrawUIstring();
+	}
+	
 	public static void DrawUIstring()
 	{
 		Font f=new Font("Malgun Gothic", Font.BOLD, 20);
@@ -223,6 +256,7 @@ public class DrawFunc {
 		trend.draw("인식 상태", 50, 230);
 		trend.endRendering();
 	}
+	
 	public static void DrawAnswer(GL2 gl,boolean iscorrect,boolean isend)
 	{
 		Font f=new Font("Malgun Gothic", Font.BOLD, 30);
@@ -270,7 +304,10 @@ public class DrawFunc {
 		trend.setColor(1f, 1f,1f,0.8f);
 		gl.glBindTexture(GL.GL_TEXTURE_2D,0);
 		trend.beginRendering(1008,592);
-		trend.draw("SCORE : "+s.score, 512, 100);
+		if(s.gameend)
+			trend.draw("GAME OVER", 512,100);
+		else
+			trend.draw("SCORE : "+s.score, 512, 100);
 		trend.endRendering();
 	}
 	
@@ -305,7 +342,7 @@ public class DrawFunc {
 	
 	public static void DrawTutorialString(GL2 gl,int current_state)
 	{
-		Font f=new Font("Malgun Gothic", Font.BOLD, 30);
+		Font f=new Font("Malgun Gothic", Font.BOLD, 25);
 		TextRenderer trend = new TextRenderer(f,true,true);
 		
 		trend.setColor(1,1,1,(float) 0.8);
@@ -369,7 +406,7 @@ public class DrawFunc {
 		
 			Font f=new Font("Malgun Gothic", Font.BOLD, 20);
 			TextRenderer trend = new TextRenderer(f,true,true);
-			trend.setColor(0f,0f,0f,0.8f);
+			trend.setColor(1f,1f,1f,0.8f);
 			gl.glBindTexture(GL.GL_TEXTURE_2D,0);
 			trend.beginRendering(1008,592);
 			trend.draw(s.current_string[s.index], 65, 420);
@@ -377,6 +414,17 @@ public class DrawFunc {
 		}
 		DrawFunc.DrawAnswer(gl,s.iscorrect,s.gameend);
 		DrawFunc.DrawUIstring();
+	}
+	
+	public static void DrawMenu(GL2 gl,int texture)
+	{
+		gl.glBindTexture(GL2.GL_TEXTURE_2D, texture);
+		gl.glBegin(GL2.GL_QUADS);
+		gl.glTexCoord2d(0,0);gl.glVertex2d(936,10);
+		gl.glTexCoord2d(1,0);gl.glVertex2d(998,10);
+		gl.glTexCoord2d(1,1);gl.glVertex2d(998,60);
+		gl.glTexCoord2d(0,1);gl.glVertex2d(936,60);
+		gl.glEnd();
 	}
 	
 }

@@ -8,11 +8,13 @@ public class RainGame extends SignListener{
 
 	public int score=0;
 	public Vector<question> question_array;
-	public boolean gameend=true;
+	public boolean gameend=false;
 	private float speed;
 	
 	public RainGame(float speed)
 	{
+		this.SetModel("ÀÚ¸ðÀ½");
+		
 		this.speed=speed;
 		this.second=50;
 		question_array=new Vector<question>();
@@ -21,7 +23,6 @@ public class RainGame extends SignListener{
 	
 	public void start()
 	{
-		gameend=false;
 		Timer t=new Timer();
 		TimerTask ts=new TimerTask(){
 			public void run() {

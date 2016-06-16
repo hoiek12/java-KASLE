@@ -3,27 +3,18 @@ package test;
 import java.util.Timer;
 import java.util.TimerTask;
 
-public class NormalGame extends SignListener{
+public class NumberGame extends SignListener{
 	
 	public int current_problem=1;
 	public boolean iscorrect=false;
 	public boolean gameend;
-	private int last_problem;
+	private int last_problem=10;
 	
 	
-	public NormalGame(int k)
+	public NumberGame()
 	{
-		this.SetModel("자모음");
-		if(k==1)
-			last_problem=31;
-		if(k==2)
-			last_problem=14;
-		if(k==3)
-		{
-			current_problem=15;
-			last_problem=31;
-		}
 		start();
+		this.SetModel("숫자");
 	}
 	
 	public void start(){
@@ -39,17 +30,14 @@ public class NormalGame extends SignListener{
 						gameend=true;
 						this.cancel();
 					}
-					else
-					{
-						Timer t=new Timer();
-						TimerTask ts=new TimerTask(){
-							public void run() {
-								iscorrect=false;
-								current_problem++;
-							}
-						};
-						t.schedule(ts,2000);
-					}
+					Timer t=new Timer();
+					TimerTask ts=new TimerTask(){
+						public void run() {
+							iscorrect=false;
+							current_problem++;
+						}
+					};
+					t.schedule(ts,2000);
 				}	
 			}
 		};

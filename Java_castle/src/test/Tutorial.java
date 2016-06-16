@@ -15,6 +15,8 @@ public class Tutorial extends SignListener{
 	
 	public Tutorial()
 	{
+		this.SetModel("ÀÚ¸ðÀ½");
+		
 		start();
 	}
 	
@@ -41,6 +43,7 @@ public class Tutorial extends SignListener{
 		Timer t2=new Timer();
 		TimerTask ts2=new TimerTask(){
 			public void run() {
+				
 				if(step==11)	
 				{
 					nt.schedule(nts,20,20);
@@ -50,7 +53,10 @@ public class Tutorial extends SignListener{
 					step++;
 				else if(step==12);
 				else if(step==15)
+				{
+					gameend=true;
 					this.cancel();
+				}
 				else
 					step++;
 			}
