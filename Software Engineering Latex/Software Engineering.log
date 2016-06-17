@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.6.16)  17 JUN 2016 18:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.6.16)  17 JUN 2016 22:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1291,66 +1291,141 @@ Underfull \hbox (badness 10000) in paragraph at lines 1380--1385
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1387--1388
-
- []
-
 <Download.png, id=65, 280.04625pt x 47.42719pt>
 File: Download.png Graphic file (type png)
  <use Download.png>
-Package pdftex.def Info: Download.png used on input line 1391.
+Package pdftex.def Info: Download.png used on input line 1390.
 (pdftex.def)             Requested size: 155.38206pt x 26.31587pt.
 
-Underfull \hbox (badness 1715) in paragraph at lines 1394--1404
-\OT1/ppl/m/n/9.53561 7.Check your se-cu-rity con-trol and al-low pro-gram to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1394--1404
+Underfull \hbox (badness 10000) in paragraph at lines 1387--1392
 
  []
 
+<Download1.png, id=66, 357.58594pt x 258.9675pt>
+File: Download1.png Graphic file (type png)
+ <use Download1.png>
+Package pdftex.def Info: Download1.png used on input line 1398.
+(pdftex.def)             Requested size: 155.38206pt x 112.53139pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1405--1420
+<Download3.png, id=67, 448.67625pt x 276.28218pt>
+File: Download3.png Graphic file (type png)
+ <use Download3.png>
+Package pdftex.def Info: Download3.png used on input line 1405.
+(pdftex.def)             Requested size: 155.38206pt x 95.68pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1402--1407
+
+ []
+
+<Download4.png, id=68, 1023.825pt x 548.0475pt>
+File: Download4.png Graphic file (type png)
+ <use Download4.png>
+Package pdftex.def Info: Download4.png used on input line 1412.
+(pdftex.def)             Requested size: 155.38206pt x 83.17363pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1416--1418
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1405--1420
+Underfull \hbox (badness 10000) in paragraph at lines 1419--1421
+
+ []
+
+File: Internet.png Graphic file (type png)
+<use Internet.png>
+Package pdftex.def Info: Internet.png used on input line 1424.
+(pdftex.def)             Requested size: 258.9675pt x 86.3383pt.
+
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 1424--1425
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1428--1429
+
+ []
+
+File: Connection.png Graphic file (type png)
+<use Connection.png>
+Package pdftex.def Info: Connection.png used on input line 1432.
+(pdftex.def)             Requested size: 155.38206pt x 146.52843pt.
+
+Underfull \vbox (badness 5970) has occurred while \output is active []
+
+ [12 <./Connection.png> <./address.png> <./Download.png> <./Download1.png> <./D
+ownload3.png> <./Download4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1437--1438
+[]\OT1/ppl/m/n/9.53561 4. Next, in-sert https://github.com/hoiek12/java-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1437--1438
+
+ []
+
+<Download5.png, id=72, 302.63063pt x 43.66313pt>
+File: Download5.png Graphic file (type png)
+ <use Download5.png>
+Package pdftex.def Info: Download5.png used on input line 1441.
+(pdftex.def)             Requested size: 155.38206pt x 22.41846pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1444--1445
+
+ []
+
+<Download6.png, id=73, 339.51843pt x 152.06813pt>
+File: Download6.png Graphic file (type png)
+ <use Download6.png>
+Package pdftex.def Info: Download6.png used on input line 1448.
+(pdftex.def)             Requested size: 155.38206pt x 69.59483pt.
+File: mainpage.png Graphic file (type png)
+
+<use mainpage.png>
+Package pdftex.def Info: mainpage.png used on input line 1456.
+(pdftex.def)             Requested size: 155.38206pt x 95.89513pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 1451--1458
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1405--1420
+Underfull \hbox (badness 10000) in paragraph at lines 1459--1463
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1425--1425
+Underfull \hbox (badness 10000) in paragraph at lines 1459--1463
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1459--1463
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1468--1468
 
  []
 
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
-[12 <./Connection.png> <./address.png> <./Download.png>]
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
- [13
-
-]
-<My.png, id=73, 406.51875pt x 542.025pt>
+[13 <./Download5.png> <./Download6.png>]
+<My.png, id=78, 406.51875pt x 542.025pt>
 File: My.png Graphic file (type png)
  <use My.png>
-Package pdftex.def Info: My.png used on input line 1445.
+Package pdftex.def Info: My.png used on input line 1488.
 (pdftex.def)             Requested size: 466.13834pt x 621.53745pt.
 
-Overfull \hbox (213.19334pt too wide) in paragraph at lines 1445--1446
+Overfull \hbox (213.19334pt too wide) in paragraph at lines 1488--1489
 [][] 
  []
 
@@ -1359,10 +1434,10 @@ Overfull \hbox (213.19334pt too wide) in paragraph at lines 1445--1446
 
  <./My.png>] (./Software Engineering.aux) ) 
 Here is how much of TeX's memory you used:
- 4115 strings out of 493014
- 68855 string characters out of 6137001
+ 4140 strings out of 493014
+ 69275 string characters out of 6137001
  136743 words of memory out of 5000000
- 7599 multiletter control sequences out of 15000+600000
+ 7619 multiletter control sequences out of 15000+600000
  45988 words of font info for 95 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  38i,6n,39p,1448b,288s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1373,10 +1448,10 @@ exlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2016/tex
 mf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2016/texmf-dist/fonts/
 type1/urw/palatino/uplr8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/palat
 ino/uplri8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on "Software Engineering.pdf" (14 pages, 779489 bytes).
+Output written on "Software Engineering.pdf" (14 pages, 1137474 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
+ 108 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
