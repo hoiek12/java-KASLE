@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.6.16)  17 JUN 2016 22:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/W32TeX) (preloaded format=pdflatex 2016.6.16)  18 JUN 2016 21:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -373,14 +373,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 696--699
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <9.53561> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 741.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 715.
 
-Underfull \hbox (badness 10000) in paragraph at lines 741--741
+Underfull \hbox (badness 10000) in paragraph at lines 715--715
 
  []
 
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <9.53561> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 746.
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 720.
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
@@ -396,7 +396,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [2
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 767--767
+Underfull \hbox (badness 10000) in paragraph at lines 742--742
 
  []
 
@@ -456,7 +456,7 @@ Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 847--847
+Underfull \hbox (badness 10000) in paragraph at lines 822--822
 
  []
 
@@ -469,10 +469,10 @@ Missing character: There is no ™ in font pplr7t!
 <names.png, id=19, 493.845pt x 238.64156pt>
 File: names.png Graphic file (type png)
  <use names.png>
-Package pdftex.def Info: names.png used on input line 872.
+Package pdftex.def Info: names.png used on input line 847.
 (pdftex.def)             Requested size: 258.9675pt x 125.13939pt.
 
-Overfull \hbox (6.0225pt too wide) in paragraph at lines 872--873
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 847--848
  [][] 
  []
 
@@ -480,17 +480,48 @@ Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 [4 <./names.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 915--919
+Underfull \hbox (badness 10000) in paragraph at lines 890--894
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--919
+Underfull \hbox (badness 10000) in paragraph at lines 890--894
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 915--919
+Underfull \hbox (badness 10000) in paragraph at lines 890--894
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 904--904
+
+ []
+
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ™ in font pplr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 905--912
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 915--915
+
+ []
+
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ™ in font pplr7t!
+
+Underfull \hbox (badness 3623) in paragraph at lines 923--923
+ \OT1/phv/m/sl/9.53561 4.1.3 From the data that pro-gram learned, pro-gram
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 923--923
 
  []
 
@@ -499,39 +530,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 929--929
 
  []
 
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 930--937
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 940--940
-
- []
-
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-
-Underfull \hbox (badness 3623) in paragraph at lines 948--948
- \OT1/phv/m/sl/9.53561 4.1.3 From the data that pro-gram learned, pro-gram
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 948--948
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 954--954
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 956--956
+Underfull \hbox (badness 10000) in paragraph at lines 931--931
 
  []
 
@@ -541,6 +541,53 @@ Missing character: There is no ™ in font pplr7t!
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no “ in font pplr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 945--945
+
+ []
+
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ™ in font pplr7t!
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 954--954
+
+ []
+
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ™ in font pplr7t!
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ™ in font pplr7t!
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ™ in font pplr7t!
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ™ in font pplr7t!
+
+Underfull \hbox (badness 6204) in paragraph at lines 962--962
+ \OT1/phv/m/sl/9.53561 4.2.4 User can change mode be-tween vowels-only,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 962--962
+
+ []
+
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ™ in font pplr7t!
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ™ in font pplr7t!
+
+Underfull \hbox (badness 1496) in paragraph at lines 963--968
+\OT1/ppl/m/n/9.53561 Implementation pro-cess: rec-og-nize users se-lec-tion and
+
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 970--970
 
@@ -549,8 +596,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 970--970
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 979--979
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no “ in font pplr7t!
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no “ in font pplr7t!
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ™ in font pplr7t!
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ™ in font pplr7t!
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ™ in font pplr7t!
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no “ in font pplr7t!
+
+Underfull \hbox (badness 6204) in paragraph at lines 981--981
+ \OT1/phv/m/sl/9.53561 4.2.6 User can change mode be-tween vowels-only,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 981--981
 
  []
 
@@ -560,36 +630,26 @@ Missing character: There is no ™ in font pplr7t!
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
 
-Underfull \hbox (badness 6204) in paragraph at lines 987--987
- \OT1/phv/m/sl/9.53561 4.2.4 User can change mode be-tween vowels-only,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 987--987
-
- []
-
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-
-Underfull \hbox (badness 1496) in paragraph at lines 988--993
+Underfull \hbox (badness 1496) in paragraph at lines 983--988
 \OT1/ppl/m/n/9.53561 Implementation pro-cess: rec-og-nize users se-lec-tion and
 
  []
 
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ™ in font pplr7t!
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ™ in font pplr7t!
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ™ in font pplr7t!
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ™ in font pplr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 995--995
+Underfull \hbox (badness 10000) in paragraph at lines 998--998
 
  []
 
@@ -598,12 +658,6 @@ Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
-Missing character: There is no “ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no “ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
@@ -611,14 +665,6 @@ Missing character: There is no ™ in font pplr7t!
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no “ in font pplr7t!
-
-Underfull \hbox (badness 6204) in paragraph at lines 1006--1006
- \OT1/phv/m/sl/9.53561 4.2.6 User can change mode be-tween vowels-only,
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 1006--1006
 
@@ -626,13 +672,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 1006--1006
 
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
+Missing character: There is no ˜ in font pplr7t!
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 
-Underfull \hbox (badness 1496) in paragraph at lines 1008--1013
-\OT1/ppl/m/n/9.53561 Implementation pro-cess: rec-og-nize users se-lec-tion and
+Underfull \hbox (badness 10000) in paragraph at lines 1010--1010
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 1016--1016
 
  []
 
@@ -642,37 +692,35 @@ Missing character: There is no ™ in font pplr7t!
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 1023--1023
-
- []
-
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 1031--1031
-
- []
-
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ˜ in font pplr7t!
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ™ in font pplr7t!
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ™ in font pplr7t!
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ™ in font pplr7t!
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ˜ in font pplr7t!
+Missing character: There is no â in font pplr7t!
+Missing character: There is no € in font pplr7t!
+Missing character: There is no ™ in font pplr7t!
+
+Underfull \hbox (badness 1400) in paragraph at lines 1029--1029
+ \OT1/phv/m/sl/9.53561 4.3.5 User can see his(or her) ac-cu-mu-lated his-tor-i-
+cal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1029--1029
+
+ []
+
 Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
@@ -681,66 +729,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 1035--1035
 
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 1041--1041
 
- []
-
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ˜ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ˜ in font pplr7t!
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-
-Underfull \hbox (badness 1400) in paragraph at lines 1054--1054
- \OT1/phv/m/sl/9.53561 4.3.5 User can see his(or her) ac-cu-mu-lated his-tor-i-
-cal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1054--1054
-
- []
-
-Missing character: There is no â in font pplr7t!
-Missing character: There is no € in font pplr7t!
-Missing character: There is no ™ in font pplr7t!
-
-Underfull \hbox (badness 10000) in paragraph at lines 1060--1060
+Underfull \hbox (badness 10000) in paragraph at lines 1042--1042
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1067--1067
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1071--1071
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1046
  \OT1/phv/m/sl/9.53561 4.3.8 Adding the ex-pla-na-tion file (ex-Readme) for
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1071--1071
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1046
 
  []
 
@@ -748,13 +748,13 @@ Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 
-Underfull \hbox (badness 3977) in paragraph at lines 1075--1075
+Underfull \hbox (badness 3977) in paragraph at lines 1050--1050
  \OT1/phv/m/sl/9.53561 4.3.9 Ex-ist-ing com-mu-ni-ca-tion chan-nel for re-pair 
 and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1075--1075
+Underfull \hbox (badness 10000) in paragraph at lines 1050--1050
 
  []
 
@@ -762,87 +762,87 @@ Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 1079--1079
+Underfull \hbox (badness 10000) in paragraph at lines 1054--1054
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1080--1080
+Underfull \hbox (badness 10000) in paragraph at lines 1055--1055
 
  []
 
 <capture.png, id=31, 505.89pt x 344.03531pt>
 File: capture.png Graphic file (type png)
  <use capture.png>
-Package pdftex.def Info: capture.png used on input line 1085.
+Package pdftex.def Info: capture.png used on input line 1060.
 (pdftex.def)             Requested size: 258.9675pt x 176.11713pt.
 
-Overfull \hbox (6.0225pt too wide) in paragraph at lines 1085--1086
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 1060--1061
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1089--1089
+Underfull \hbox (badness 10000) in paragraph at lines 1064--1064
 
  []
 
 <mainpage.png, id=32, 780.66656pt x 481.8pt>
 File: mainpage.png Graphic file (type png)
  <use mainpage.png>
-Package pdftex.def Info: mainpage.png used on input line 1095.
+Package pdftex.def Info: mainpage.png used on input line 1070.
 (pdftex.def)             Requested size: 258.9675pt x 159.82523pt.
 
-Overfull \hbox (6.0225pt too wide) in paragraph at lines 1095--1096
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 1070--1071
  [][] 
  []
 
 [7 <./capture.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1098--1098
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1073
 
  []
 
 <cap_login.png, id=38, 779.16093pt x 480.29437pt>
 File: cap_login.png Graphic file (type png)
  <use cap_login.png>
-Package pdftex.def Info: cap_login.png used on input line 1106.
+Package pdftex.def Info: cap_login.png used on input line 1081.
 (pdftex.def)             Requested size: 258.9675pt x 159.63358pt.
 
-Overfull \hbox (6.0225pt too wide) in paragraph at lines 1106--1107
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 1081--1082
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1109--1109
+Underfull \hbox (badness 10000) in paragraph at lines 1084--1084
 
  []
 
 <cap_tutorial.png, id=39, 782.17218pt x 481.04718pt>
 File: cap_tutorial.png Graphic file (type png)
  <use cap_tutorial.png>
-Package pdftex.def Info: cap_tutorial.png used on input line 1118.
+Package pdftex.def Info: cap_tutorial.png used on input line 1093.
 (pdftex.def)             Requested size: 258.9675pt x 159.26721pt.
 
-Overfull \hbox (6.0225pt too wide) in paragraph at lines 1118--1119
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 1093--1094
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1121
+Underfull \hbox (badness 10000) in paragraph at lines 1096--1096
 
  []
 
 <SVM.jpg, id=40, 120.45pt x 88.1694pt>
 File: SVM.jpg Graphic file (type jpg)
  <use SVM.jpg>
-Package pdftex.def Info: SVM.jpg used on input line 1129.
+Package pdftex.def Info: SVM.jpg used on input line 1104.
 (pdftex.def)             Requested size: 258.9675pt x 189.58336pt.
 
-Overfull \hbox (6.0225pt too wide) in paragraph at lines 1129--1130
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 1104--1105
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1132--1132
+Underfull \hbox (badness 10000) in paragraph at lines 1107--1107
 
  []
 
@@ -850,7 +850,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1132--1132
 Underfull \vbox (badness 2837) has occurred while \output is active []
 
  [8 <./mainpage.png> <./cap_login.png> <./cap_tutorial.png> <./SVM.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 1139--1139
+Underfull \hbox (badness 10000) in paragraph at lines 1114--1114
 
  []
 
@@ -861,15 +861,15 @@ Missing character: There is no ™ in font pplr7t!
 File: cap_basic_prac.png Graphic file (type png)
 
 <use cap_basic_prac.png>
-Package pdftex.def Info: cap_basic_prac.png used on input line 1145.
+Package pdftex.def Info: cap_basic_prac.png used on input line 1120.
 (pdftex.def)             Requested size: 258.9675pt x 159.07605pt.
 
-Overfull \hbox (6.0225pt too wide) in paragraph at lines 1145--1146
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 1120--1121
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1148--1148
+Underfull \hbox (badness 10000) in paragraph at lines 1123--1123
 
  []
 
@@ -879,10 +879,10 @@ Missing character: There is no ™ in font pplr7t!
 <cap_word_prac.png, id=48, 780.66656pt x 480.29437pt>
 File: cap_word_prac.png Graphic file (type png)
  <use cap_word_prac.png>
-Package pdftex.def Info: cap_word_prac.png used on input line 1153.
+Package pdftex.def Info: cap_word_prac.png used on input line 1128.
 (pdftex.def)             Requested size: 258.9675pt x 159.32576pt.
 
-Overfull \hbox (6.0225pt too wide) in paragraph at lines 1153--1154
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 1128--1129
  [][] 
  []
 
@@ -890,7 +890,7 @@ Overfull \hbox (6.0225pt too wide) in paragraph at lines 1153--1154
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1156--1156
+Underfull \hbox (badness 10000) in paragraph at lines 1131--1131
 
  []
 
@@ -903,20 +903,20 @@ Missing character: There is no ™ in font pplr7t!
 <cap_rain_game.png, id=49, 779.16093pt x 478.03593pt>
 File: cap_rain_game.png Graphic file (type png)
  <use cap_rain_game.png>
-Package pdftex.def Info: cap_rain_game.png used on input line 1161.
+Package pdftex.def Info: cap_rain_game.png used on input line 1136.
 (pdftex.def)             Requested size: 258.9675pt x 158.88295pt.
 
-Overfull \hbox (6.0225pt too wide) in paragraph at lines 1161--1162
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 1136--1137
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1167--1167
+Underfull \hbox (badness 10000) in paragraph at lines 1142--1142
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1168--1168
+Underfull \hbox (badness 10000) in paragraph at lines 1143--1143
 
  []
 
@@ -978,7 +978,7 @@ Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 [9 <./cap_basic_prac.png> <./cap_word_prac.png> <./cap_rain_game.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1185--1185
+Underfull \hbox (badness 10000) in paragraph at lines 1160--1160
 
  []
 
@@ -1010,7 +1010,7 @@ Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 1200--1200
+Underfull \hbox (badness 10000) in paragraph at lines 1175--1175
 
  []
 
@@ -1024,7 +1024,7 @@ Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1188--1188
 
  []
 
@@ -1057,7 +1057,7 @@ Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 1236--1236
+Underfull \hbox (badness 10000) in paragraph at lines 1211--1211
 
  []
 
@@ -1088,7 +1088,7 @@ Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 1257--1257
+Underfull \hbox (badness 10000) in paragraph at lines 1232--1232
 
  []
 
@@ -1119,7 +1119,7 @@ Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 1279--1279
+Underfull \hbox (badness 10000) in paragraph at lines 1254--1254
 
  []
 
@@ -1150,7 +1150,7 @@ Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 1302--1302
+Underfull \hbox (badness 10000) in paragraph at lines 1277--1277
 
  []
 
@@ -1179,7 +1179,7 @@ Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 1323--1323
+Underfull \hbox (badness 10000) in paragraph at lines 1298--1298
 
  []
 
@@ -1229,17 +1229,17 @@ Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 
-Underfull \hbox (badness 1629) in paragraph at lines 1324--1349
+Underfull \hbox (badness 1629) in paragraph at lines 1299--1324
 \OT1/ppl/m/n/9.53561 This use case sat-is-fies Post-ing text en-tered by hand
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1324--1349
+Underfull \hbox (badness 10000) in paragraph at lines 1299--1324
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1324--1349
+Underfull \hbox (badness 10000) in paragraph at lines 1299--1324
 
  []
 
@@ -1256,27 +1256,27 @@ Missing character: There is no â in font pplr7t!
 Missing character: There is no „ in font pplr7t!
 Missing character: There is no ¢ in font pplr7t!
 
-Underfull \hbox (badness 10000) in paragraph at lines 1364--1366
+Underfull \hbox (badness 10000) in paragraph at lines 1339--1341
 
  []
 
 <Internet.png, id=59, 88.07906pt x 29.35968pt>
 File: Internet.png Graphic file (type png)
  <use Internet.png>
-Package pdftex.def Info: Internet.png used on input line 1369.
+Package pdftex.def Info: Internet.png used on input line 1344.
 (pdftex.def)             Requested size: 258.9675pt x 86.3383pt.
 
-Overfull \hbox (6.0225pt too wide) in paragraph at lines 1369--1370
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 1344--1345
  [][] 
  []
 
 <Connection.png, id=60, 26.34843pt x 24.84282pt>
 File: Connection.png Graphic file (type png)
  <use Connection.png>
-Package pdftex.def Info: Connection.png used on input line 1375.
+Package pdftex.def Info: Connection.png used on input line 1350.
 (pdftex.def)             Requested size: 155.38206pt x 146.52843pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1372--1378
+Underfull \hbox (badness 10000) in paragraph at lines 1347--1353
 
  []
 
@@ -1284,128 +1284,128 @@ Underfull \hbox (badness 10000) in paragraph at lines 1372--1378
 File: address.png Graphic file (type png)
 
 <use address.png>
-Package pdftex.def Info: address.png used on input line 1383.
+Package pdftex.def Info: address.png used on input line 1358.
 (pdftex.def)             Requested size: 155.38206pt x 126.21933pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1380--1385
+Underfull \hbox (badness 10000) in paragraph at lines 1355--1360
 
  []
 
 <Download.png, id=65, 280.04625pt x 47.42719pt>
 File: Download.png Graphic file (type png)
  <use Download.png>
-Package pdftex.def Info: Download.png used on input line 1390.
+Package pdftex.def Info: Download.png used on input line 1365.
 (pdftex.def)             Requested size: 155.38206pt x 26.31587pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1387--1392
+Underfull \hbox (badness 10000) in paragraph at lines 1362--1367
 
  []
 
 <Download1.png, id=66, 357.58594pt x 258.9675pt>
 File: Download1.png Graphic file (type png)
  <use Download1.png>
-Package pdftex.def Info: Download1.png used on input line 1398.
+Package pdftex.def Info: Download1.png used on input line 1373.
 (pdftex.def)             Requested size: 155.38206pt x 112.53139pt.
 
 <Download3.png, id=67, 448.67625pt x 276.28218pt>
 File: Download3.png Graphic file (type png)
  <use Download3.png>
-Package pdftex.def Info: Download3.png used on input line 1405.
+Package pdftex.def Info: Download3.png used on input line 1380.
 (pdftex.def)             Requested size: 155.38206pt x 95.68pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1402--1407
+Underfull \hbox (badness 10000) in paragraph at lines 1377--1382
 
  []
 
 <Download4.png, id=68, 1023.825pt x 548.0475pt>
 File: Download4.png Graphic file (type png)
  <use Download4.png>
-Package pdftex.def Info: Download4.png used on input line 1412.
+Package pdftex.def Info: Download4.png used on input line 1387.
 (pdftex.def)             Requested size: 155.38206pt x 83.17363pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1416--1418
+Underfull \hbox (badness 10000) in paragraph at lines 1391--1393
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1419--1421
+Underfull \hbox (badness 10000) in paragraph at lines 1394--1396
 
  []
 
 File: Internet.png Graphic file (type png)
 <use Internet.png>
-Package pdftex.def Info: Internet.png used on input line 1424.
+Package pdftex.def Info: Internet.png used on input line 1399.
 (pdftex.def)             Requested size: 258.9675pt x 86.3383pt.
 
-Overfull \hbox (6.0225pt too wide) in paragraph at lines 1424--1425
+Overfull \hbox (6.0225pt too wide) in paragraph at lines 1399--1400
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1428--1429
+Underfull \hbox (badness 10000) in paragraph at lines 1403--1404
 
  []
 
 File: Connection.png Graphic file (type png)
 <use Connection.png>
-Package pdftex.def Info: Connection.png used on input line 1432.
+Package pdftex.def Info: Connection.png used on input line 1407.
 (pdftex.def)             Requested size: 155.38206pt x 146.52843pt.
 
 Underfull \vbox (badness 5970) has occurred while \output is active []
 
  [12 <./Connection.png> <./address.png> <./Download.png> <./Download1.png> <./D
 ownload3.png> <./Download4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1437--1438
+Underfull \hbox (badness 10000) in paragraph at lines 1412--1413
 []\OT1/ppl/m/n/9.53561 4. Next, in-sert https://github.com/hoiek12/java-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1437--1438
+Underfull \hbox (badness 10000) in paragraph at lines 1412--1413
 
  []
 
 <Download5.png, id=72, 302.63063pt x 43.66313pt>
 File: Download5.png Graphic file (type png)
  <use Download5.png>
-Package pdftex.def Info: Download5.png used on input line 1441.
+Package pdftex.def Info: Download5.png used on input line 1416.
 (pdftex.def)             Requested size: 155.38206pt x 22.41846pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1444--1445
+Underfull \hbox (badness 10000) in paragraph at lines 1419--1420
 
  []
 
 <Download6.png, id=73, 339.51843pt x 152.06813pt>
 File: Download6.png Graphic file (type png)
  <use Download6.png>
-Package pdftex.def Info: Download6.png used on input line 1448.
+Package pdftex.def Info: Download6.png used on input line 1423.
 (pdftex.def)             Requested size: 155.38206pt x 69.59483pt.
 File: mainpage.png Graphic file (type png)
 
 <use mainpage.png>
-Package pdftex.def Info: mainpage.png used on input line 1456.
+Package pdftex.def Info: mainpage.png used on input line 1431.
 (pdftex.def)             Requested size: 155.38206pt x 95.89513pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1451--1458
+Underfull \hbox (badness 10000) in paragraph at lines 1426--1433
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1459--1463
+Underfull \hbox (badness 10000) in paragraph at lines 1434--1438
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1459--1463
+Underfull \hbox (badness 10000) in paragraph at lines 1434--1438
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1459--1463
+Underfull \hbox (badness 10000) in paragraph at lines 1434--1438
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1468--1468
+Underfull \hbox (badness 10000) in paragraph at lines 1443--1443
 
  []
 
@@ -1419,20 +1419,20 @@ Missing character: There is no â in font pplr7t!
 Missing character: There is no € in font pplr7t!
 Missing character: There is no ™ in font pplr7t!
 [13 <./Download5.png> <./Download6.png>]
-<My.png, id=78, 406.51875pt x 542.025pt>
+<My.png, id=78, 813.0375pt x 1084.05pt>
 File: My.png Graphic file (type png)
  <use My.png>
-Package pdftex.def Info: My.png used on input line 1488.
-(pdftex.def)             Requested size: 466.13834pt x 621.53745pt.
+Package pdftex.def Info: My.png used on input line 1462.
+(pdftex.def)             Requested size: 466.13834pt x 621.52092pt.
 
-Overfull \hbox (213.19334pt too wide) in paragraph at lines 1488--1489
+Overfull \hbox (213.19334pt too wide) in paragraph at lines 1462--1463
 [][] 
  []
 
 [14
 
 
- <./My.png>] (./Software Engineering.aux) ) 
+ <./My.png (PNG copy)>] (./Software Engineering.aux) ) 
 Here is how much of TeX's memory you used:
  4140 strings out of 493014
  69275 string characters out of 6137001
@@ -1441,16 +1441,17 @@ Here is how much of TeX's memory you used:
  45988 words of font info for 95 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  38i,6n,39p,1448b,288s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2016/texmf-dist/fonts/en
-c/dvips/base/8r.enc}<c:/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmsy8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb><c:/t
-exlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texlive/2016/tex
-mf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2016/texmf-dist/fonts/
-type1/urw/palatino/uplr8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/palat
-ino/uplri8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on "Software Engineering.pdf" (14 pages, 1137474 bytes).
+{c:/texlive/2016/texmf-di
+st/fonts/enc/dvips/base/8r.enc}<c:/texlive/2016/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvb8
+a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/texli
+ve/2016/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb><c:/texlive/2016/texmf-
+dist/fonts/type1/urw/palatino/uplr8a.pfb><c:/texlive/2016/texmf-dist/fonts/type
+1/urw/palatino/uplri8a.pfb><c:/texlive/2016/texmf-dist/fonts/type1/urw/zapfding
+/uzdr.pfb>
+Output written on "Software Engineering.pdf" (14 pages, 1155865 bytes).
 PDF statistics:
- 108 PDF objects out of 1000 (max. 8388607)
+ 107 PDF objects out of 1000 (max. 8388607)
  56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  96 words of extra memory for PDF output out of 10000 (max. 10000000)
